@@ -1,0 +1,41 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "tsc",
+    "dev": "nodemon dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserslist": "^4.16.3",
+    "browserslist-useragent": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.17",
+    "passport": "^0.4.1",
+    "passport-github": "^1.1.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.11",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/mongoose": "^5.10.3",
+    "@types/node": "^14.14.27",
+    "@types/passport": "^1.0.6",
+    "@types/passport-github": "^1.1.5",
+    "@types/uuid": "^8.3.0",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.1.5"
+  },
+  "browserslist": [
+    "ie <= 11"
+  ]
+}
