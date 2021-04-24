@@ -28,21 +28,21 @@ export function activate(context: vscode.ExtensionContext) {
       auth();
     })
   );
-  context.subscriptions.push(
-    vscode.commands.registerCommand("todolist.refresh", async () => {
-      TodoListsPanel.kill();
-      TodoListsPanel.createOrShow(context.extensionUri);
-      // await vscode.commands.executeCommand("workbench.action.closeSidebar");
-      // await vscode.commands.executeCommand(
-      //   "workbench.view.extension.todolist-sidebar-view"
-      // );
-      setTimeout(() => {
-        vscode.commands.executeCommand(
-          "workbench.action.webview.openDeveloperTools"
-        );
-      }, 500);
-    })
-  );
+  // context.subscriptions.push(
+  //   vscode.commands.registerCommand("todolist.refresh", async () => {
+  //     TodoListsPanel.kill();
+  //     TodoListsPanel.createOrShow(context.extensionUri);
+  //     // await vscode.commands.executeCommand("workbench.action.closeSidebar");
+  //     // await vscode.commands.executeCommand(
+  //     //   "workbench.view.extension.todolist-sidebar-view"
+  //     // );
+  //     setTimeout(() => {
+  //       vscode.commands.executeCommand(
+  //         "workbench.action.webview.openDeveloperTools"
+  //       );
+  //     }, 500);
+  //   })
+  // );
 }
 
 export function deactivate() {}

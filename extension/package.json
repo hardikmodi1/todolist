@@ -3,7 +3,7 @@
   "publisher": "HardikModi",
   "displayName": "TodoList",
   "description": "Bring Todos to one step closer to you and track it in better way",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "repository": {
     "type": "git",
     "url": "https://github.com/hardikmodi1/todolist"
